@@ -1,4 +1,4 @@
-import FOV, { VisibilityCallback } from "./fov.js";
+import FOV, { VisibilityCallback } from "./fov";
 
 /** Octants used for translating recursive shadowcasting offsets */
 const OCTANTS = [

@@ -1,5 +1,5 @@
-import Canvas from "./canvas.js";
-import { DisplayOptions, DisplayData } from "./types.js";
+import Canvas from "./canvas";
+import { DisplayOptions, DisplayData } from "./types";
 
 /**
  * @class Rectangular backend
@@ -9,7 +9,6 @@ export default class Rect extends Canvas {
 	_spacingX: number;
 	_spacingY: number;
 	_canvasCache: {[key:string]: HTMLCanvasElement};
-	_options!: DisplayOptions;
 
 	static cache = false;
 

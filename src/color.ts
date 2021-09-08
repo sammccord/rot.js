@@ -1,5 +1,5 @@
-import { clamp } from "./util.js";
-import RNG from "./rng.js";
+import { clamp } from "./util";
+import RNG from "./rng";
 
 export type Color = [number, number, number];
 

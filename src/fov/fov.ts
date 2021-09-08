@@ -1,4 +1,4 @@
-import { DIRS } from "../constants.js";
+import { DIRS } from "../constants";
 
 export interface LightPassesCallback { (x: number, y: number): boolean };
 

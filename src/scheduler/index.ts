@@ -1,6 +1,6 @@
-import Simple from "./simple.js";
-import Speed from "./speed.js";
-import Action from "./action.js";
+import Simple from "./simple";
+import Speed from "./speed";
+import Action from "./action";
 
 export default { Simple, Speed, Action };
-export { SpeedActor } from "./speed.js"
+export { SpeedActor } from "./speed"

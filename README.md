@@ -1,4 +1,6 @@
-# rot.js
+# rot-esm
+
+> Fork of the super great rot.js but with modern compilation targets and smaller download size
 
 ROguelike Toolkit in JavaScript. For more info, see http://ondras.github.com/rot.js.
 

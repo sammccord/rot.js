@@ -1,6 +1,6 @@
-import Backend from "./backend.js";
-import { DisplayData, DisplayOptions } from "./types.js";
-import * as Color from "../color.js";
+import Backend from "./backend";
+import { DisplayData, DisplayOptions } from "./types";
+import * as Color from "../color";
 
 function clearToAnsi(bg: string) {
 	return `\x1b[0;48;5;${termcolor(bg)}m\x1b[2J`;

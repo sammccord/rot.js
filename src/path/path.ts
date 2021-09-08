@@ -1,4 +1,4 @@
-import { DIRS } from "../constants.js";
+import { DIRS } from "../constants";
 
 export type ComputeCallback = (x: number, y: number) => any;
 export type PassableCallback = (x: number, y: number) => boolean;

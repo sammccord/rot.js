@@ -1,4 +1,4 @@
-import Scheduler from "./scheduler/scheduler.js";
+import Scheduler from "./scheduler/scheduler";
 
 /**
  * @class Asynchronous main loop

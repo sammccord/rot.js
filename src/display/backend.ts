@@ -1,4 +1,4 @@
-import { DisplayOptions, DisplayData } from "./types.js";
+import { DisplayOptions, DisplayData } from "./types";
 
 /**
  * @class Abstract display backend module

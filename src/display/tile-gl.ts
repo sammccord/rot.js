@@ -1,6 +1,6 @@
-import Backend from "./backend.js";
-import { DisplayOptions, DisplayData } from "./types.js";
-import * as Color from "../color.js";
+import Backend from "./backend";
+import { DisplayOptions, DisplayData } from "./types";
+import * as Color from "../color";
 
 /**
  * @class Tile backend
@@ -20,7 +20,7 @@ export default class TileGL extends Backend {
 		this._uniforms = {};
 		try {
 			this._gl = this._initWebGL();
-		} catch (e) {
+		} catch (e: any) {
 			alert(e.message);
 		}
 	}

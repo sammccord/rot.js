@@ -1,7 +1,7 @@
-import { CreateCallback } from "./map.js";
-import Dungeon from "./dungeon.js";
-import { Room, Corridor } from "./features.js";
-import RNG from "../rng.js";
+import { CreateCallback } from "./map";
+import Dungeon from "./dungeon";
+import { Room, Corridor } from "./features";
+import RNG from "../rng";
 
 interface Options {
 	roomWidth: [number, number], /* room minimum and maximum width */

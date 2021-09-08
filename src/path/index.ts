@@ -1,4 +1,4 @@
-import Dijkstra from "./dijkstra.js";
-import AStar from "./astar.js";
+import Dijkstra from "./dijkstra";
+import AStar from "./astar";
 
 export default { Dijkstra, AStar };

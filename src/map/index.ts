@@ -1,10 +1,10 @@
-import Arena from "./arena.js";
-import Uniform from "./uniform.js";
-import Cellular from "./cellular.js";
-import Digger from "./digger.js";
-import EllerMaze from "./ellermaze.js";
-import DividedMaze from "./dividedmaze.js";
-import IceyMaze from "./iceymaze.js";
-import Rogue from "./rogue.js";
+import Arena from "./arena";
+import Uniform from "./uniform";
+import Cellular from "./cellular";
+import Digger from "./digger";
+import EllerMaze from "./ellermaze";
+import DividedMaze from "./dividedmaze";
+import IceyMaze from "./iceymaze";
+import Rogue from "./rogue";
 
 export default { Arena, Uniform, Cellular, Digger, EllerMaze, DividedMaze, IceyMaze, Rogue };

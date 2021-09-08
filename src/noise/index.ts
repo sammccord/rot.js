@@ -1,3 +1,3 @@
-import Simplex from "./simplex.js";
+import Simplex from "./simplex";
 
 export default { Simplex };

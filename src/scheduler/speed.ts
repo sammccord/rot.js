@@ -1,4 +1,4 @@
-import Scheduler from "./scheduler.js";
+import Scheduler from "./scheduler";
 
 export interface SpeedActor {
 	getSpeed: () => number;

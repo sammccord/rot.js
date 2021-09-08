@@ -1,5 +1,5 @@
-import Map from "./map.js";
-import { Room, Corridor } from "./features.js";
+import Map from "./map";
+import { Room, Corridor } from "./features";
 
 /**
  * @class Dungeon map: has rooms and corridors

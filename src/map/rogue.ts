@@ -1,6 +1,6 @@
-import Map, { CreateCallback } from "./map.js";
-import RNG from "../rng.js";
-import { DIRS } from "../constants.js";
+import Map, { CreateCallback } from "./map";
+import RNG from "../rng";
+import { DIRS } from "../constants";
 
 type Point = [number, number];
 

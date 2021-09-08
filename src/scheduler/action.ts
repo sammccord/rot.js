@@ -1,4 +1,4 @@
-import Scheduler from "./scheduler.js";
+import Scheduler from "./scheduler";
 
 /**
  * @class Action-based scheduler

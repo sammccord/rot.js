@@ -1,9 +1,9 @@
-import { CreateCallback } from "./map.js";
-import Dungeon from "./dungeon.js";
-import { Room, Corridor, FeatureConstructor } from "./features.js";
+import { CreateCallback } from "./map";
+import Dungeon from "./dungeon";
+import { Room, Corridor, FeatureConstructor } from "./features";
 
-import RNG from "../rng.js";
-import { DIRS } from "../constants.js";
+import RNG from "../rng";
+import { DIRS } from "../constants";
 
 type FeatureType = "room" | "corridor";
 const FEATURES = {

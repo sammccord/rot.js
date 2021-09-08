@@ -1,4 +1,4 @@
-import Scheduler from "./scheduler.js";
+import Scheduler from "./scheduler";
 
 /**
  * @class Simple fair scheduler (round-robin style)
